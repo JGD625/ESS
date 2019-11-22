@@ -1,0 +1,52 @@
+
+
+.Header_container {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 25px;
+    left: 0;
+    background: #4287f5;
+}
+
+.Header_title {
+    position: absolute;
+    left: 225px;
+    top: -5px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.Header_title_bottom {
+    font-family: 'Arvo', serif;
+    font-size: 1.5em;
+}
+
+.Header_title_top {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.75em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bigger {
+    font-size: 2.5em;
+}
+
+.ESS_logo {
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    top: -25px;
+}
+
+.White_triangle {
+    position: absolute;
+    right: 0px;
+    width         : 0;
+    height        : 0;
+    border-left   : 200px solid transparent;
+    border-right  : 0px solid transparent;  
+    border-bottom : 150px solid #fff;
+}

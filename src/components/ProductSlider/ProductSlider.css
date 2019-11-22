@@ -1,0 +1,18 @@
+.Product_slider_container {
+    height: 200px;
+    
+}
+
+.Product_item_container {
+    display: block;
+    height: 200px;
+    border-top: 8px solid #4287f5;
+    border-bottom: 8px solid #4287f5;
+    padding: 0;
+    margin: 0;
+}
+
+.Product_title {
+    text-align: center;
+    display: block;
+}

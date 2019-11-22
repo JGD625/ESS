@@ -1,0 +1,45 @@
+.Footer_wrapper {
+    position: relative;
+    margin-bottom: -100px;
+}
+
+.Footer_container {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    background: #4287f5;
+    color: #fff;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-start;
+    clear: both;
+}
+
+.Footer_container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Footer_container a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+
+.Address_container {
+    display: block;
+    padding: 10px;
+}
+
+.Phone_container {
+    display: block;
+    padding: 10px;
+}
+
+.Fax_container {
+    display: block;
+    padding: 10px;
+}
